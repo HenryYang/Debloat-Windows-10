@@ -43,6 +43,11 @@ Unblock PowerShell scripts and modules within this directory:
 
     PS> ls -Recurse *.ps*1 | Unblock-File
 
+
+Disable execution of PowerShell scripts:
+
+     PS> Set-ExecutionPolicy Restricted -Scope CurrentUser
+
 ## Usage
 
 Scripts can be run individually, pick what you need.
